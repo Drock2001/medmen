@@ -520,7 +520,7 @@ hr{
    font-family: 'Josefin Sans', sans-serif;
    display: inline-block;
    padding: 5px 10px;
-   background-color: #36758840;
+   background-color: #ffffff40;
    border: 1px solid #36758880;
    border-radius: 20px;
    color: #fff;
@@ -532,8 +532,34 @@ hr{
 }
 
 .tabcontent .con .box .content a:hover{
-  color: #2196f3;
-  background-color: #367588;
+  color: #fff;
+  background-color: #333;
+  box-shadow: 0 0 10px #367588, 0 0 40px #367588, 0 0 80px #367588;
+  transition-delay: 0.2s;
+}
+
+.chal a{
+  opacity: 1;
+	transform: translateY(0px);
+	transition-delay: 0.9s;
+
+   font-family: 'Josefin Sans', sans-serif;
+   display: inline-block;
+   padding: 5px 10px;
+   background-color: #ffffff40;
+   border: 1px solid #36758880;
+   border-radius: 20px;
+   color: #fff;
+   font-size: 16px;
+   text-transform: uppercase;
+   text-decoration: none;
+   margin-top: 15px;
+   z-index: 999;
+}
+
+.chal a:hover{
+  color: #fff;
+  background-color: #333;
   box-shadow: 0 0 10px #367588, 0 0 40px #367588, 0 0 80px #367588;
   transition-delay: 0.2s;
 }
